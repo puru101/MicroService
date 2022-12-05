@@ -25,13 +25,15 @@ Create User-Login User-Token Will Generate-Using that vtoken we can check the St
 
 Json format for Testing
 Ex:
-Create:
+Post: To register the user
+http://localhost:8082/users-ws/users
 {
 "firstName":"ss",
 "lastName":"Biswal",
 "password":"87654321",
 "email":"sstest@test.com"
 }
+
 Login:
 {
 "email":"sstest@test.com",
